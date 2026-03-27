@@ -5,13 +5,13 @@ const data = {
   name: "Anjali Nirwal",
   title: "Full Stack Developer",
   tagline:
-    "Building scalable, high-performance web applications with React, Node.js & Generative AI.",
+    "Full Stack Developer passionate about building and shipping real products. Skilled in React, Node.js, Express, MongoDB, and integrating Generative AI into applications to create smarter user experiences. From frontend UI to backend APIs to AI-powered features — I build complete solutions that are clean, scalable, and practical.",
   email: "anjalinirwal02@gmail.com",
   phone: "+91 9149007255",
   location: "Ghaziabad, India",
-  linkedin: "https://linkedin.com/in/anjali-nirwal",
+  linkedin: "https://www.linkedin.com/in/anjali-nirwal-9074a1305",
   github: "https://github.com/anjali-nirwal",
-  twitter: "https://twitter.com/anjali-nirwal",
+  twitter: "https://x.com/anjalinirwal02",
   skills: {
     Languages: ["Java", "JavaScript"],
     Frameworks: ["React.js", "Redux", "Node.js", "Express.js", "Bootstrap"],
@@ -22,36 +22,36 @@ const data = {
   },
   projects: [
     {
-      title: "Stock Trading Web App",
+      title: "Full-Stack Stock Trading Web App",
       description:
         "Zerodha-inspired portfolio dashboard for real-time stock holdings, positions, and investment summaries. Integrated Chart.js to visualize stock price trends for data-driven decision-making.",
       tech: ["React.js", "Node.js", "Express.js", "MongoDB", "JWT Auth", "Chart.js"],
-      live: "#",
-      github: "#",
+      live: "https://investo-9kb8.onrender.com/",
+      github: "https://github.com/Anjali-Nirwal/Stock-trading",
     },
     {
-      title: "Room Booking Platform",
+      title: "Full-Stack Room Booking Platform",
       description:
         "Scalable room rental platform with listing management, Cloudinary image uploads, and JWT role-based authentication. Designed responsive UIs for mobile and desktop.",
       tech: ["Node.js", "Express.js", "MongoDB", "EJS", "Bootstrap", "Cloudinary"],
-      live: "#",
-      github: "#",
+      live: "https://stayeasy-quwp.onrender.com/",
+      github: "https://github.com/Anjali-Nirwal/rooms-for-all",
     },
     {
-      title: "EchoMeet",
+      title: "EchoMeet— Live Chat, Video Call & Screen Share",
       description:
         "Real-time collaboration platform with one-to-one and group chat using Socket.IO for low-latency messaging. Integrated WebRTC for peer-to-peer video calling and screen sharing.",
       tech: ["React.js", "Socket.IO", "WebRTC", "Node.js", "MongoDB", "Cloudinary"],
-      live: "#",
-      github: "#",
+      live: "https://zoom-clone-zyzw.onrender.com/",
+      github: "https://github.com/Anjali-Nirwal/echo_app",
     },
     {
-      title: "AI Code Reviewer",
+      title: "AI Code Reviewer — GenAI Powered",
       description:
         "AI-powered code review tool using Google Gemini API to analyze code quality and suggest improvements in real time.",
       tech: ["React.js", "Node.js", "Express.js", "Gemini API"],
       live: null,
-      github: "#",
+      github: null,
     },
   ],
   education: [
@@ -476,7 +476,7 @@ export default function App() {
           }}
         >
           <div style={{ maxWidth: 660 }}>
-            <p
+            {/* <p
               style={{
                 fontSize: 13,
                 fontWeight: 500,
@@ -487,7 +487,7 @@ export default function App() {
               }}
             >
               📍 {data.location}
-            </p>
+            </p> */}
 
             <h1
               style={{
